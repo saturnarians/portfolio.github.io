@@ -1,0 +1,142 @@
+footer {
+    border:1px solid #000;
+    margin:5px;
+    padding:5px;
+    border-radius: 0.3em;
+}
+
+.footer-container {
+    display:grid;
+}
+
+.footer-brand a{
+    color:#000;
+    font-size:20px;
+    padding: 0px;
+    margin:15px;
+    position: relative;
+    top:20px;
+    left:20px;
+    font-weight: 600;
+}
+
+.footer-links {
+    place-self:center;
+    display:flex;
+    flex-wrap: wrap;
+    gap:2em;
+    position: relative;
+    left:1em;
+    margin:.3em .3em 1.5em .3em;
+}
+
+/* .footer-links :nth-child(1) { 
+    margin:1em;
+    padding:0.1em;
+}
+
+.footer-links :nth-child(2) {
+    margin:1em;
+    padding:0.1em;
+}
+ */
+
+ .footer-navlink h1 {
+    font-size: 1.3em;
+    letter-spacing: .0em;
+    text-align: center;
+     
+    
+}
+
+.footer-navlink {
+    position: relative;
+    right:3.9em;
+    
+}
+
+.footer-navlink ul li{
+    font-size: 1em;
+    letter-spacing: .0em;
+    line-height: 2.2em;
+    color:#000;
+}
+
+.footer-contact {
+    position:relative;
+    left: 3.9em;
+    
+}
+
+.footer-container .footer-contact h1 {
+    font-size: 1.3em;
+    letter-spacing: .0em;
+    text-align: left;
+    margin-left:1.9em;
+}
+
+.footer-contact ul li{
+    font-size: 1em;
+    letter-spacing: .0em;
+    line-height: 2.2em;  
+    text-align: left;
+}
+
+
+.footer-end p{
+    text-align: center;
+    place-self: center;
+    font-size: 1em;
+}
+
+.footer-container .footer-end span {
+    display: block;
+    border-bottom: 1px solid #000;
+   
+}
+/*phone*/
+@media only screen and (min-width:200px)and (max-width:600px){
+.footer-container {
+    
+}
+
+.footer-links {
+      margin:2em;   
+      display:grid;
+    }
+    
+    .footer-navlink {
+    place-self: center;
+    
+} 
+    .footer-contact {
+    place-self: center;
+    position:relative;
+    left: 0.9em;
+    
+}
+    
+    /* .footer-contact .feather {
+        
+        
+    } */
+    
+    
+    .footer-end p{
+    font-size: 0.8em;
+}
+
+}
+
+/*Tablet*/
+@media only screen and (min-width:601px)and (max-width:900px){
+}
+
+/*Medium Siz Laptop*/
+@media only screen and (min-width:901px)and (max-width:1199px) {}
+
+/* Large Desktop*/
+@media only screen and (min-width:1200px)and (max-width:1799px) {}
+
+/*Extra Display*/
+@media only screen and (min-width:1800px){}

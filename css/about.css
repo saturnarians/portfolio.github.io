@@ -1,0 +1,134 @@
+.about {
+    display: grid;
+}
+.about .about-container {
+    place-self: center;
+    height:100%;
+    width:50%;
+    display:grid;
+    margin-top:10px;
+    border: 1px solid burlywood;
+    background-color: burlywood;
+    border-radius: 0.4em;
+     text-align: center;
+    letter-spacing: 0.1em;
+}
+.about .about-container  h1,
+.about .about-container h2 {
+    font-size: 14px;
+    place-self: center;
+    padding:10px 10px;
+    margin:0;
+    text-align: center;
+}
+
+.about .about-container  span {
+    width:70px; 
+    border-bottom:2px solid #261c55;
+    place-self: center;  
+}
+
+
+.about .about-container h3 {
+    font-size: 17px;
+    place-self: center;
+    padding:10px 10px;
+    margin:0;
+    letter-spacing: 0.2em;
+}
+
+.about .about-container p {
+    font-size: 17px;
+    place-self: center;
+    padding:10px 10px;
+    margin:0;
+    line-height: 25px;
+}
+
+
+.about > img{
+    width:50%;
+    height:50%;
+    padding:0;
+    place-self: center;
+    margin-top:-55px;
+/*     margin-bottom: -50px */
+   
+}
+    
+
+.about .about-dtls {
+    place-self: center;
+    margin:10px;
+    background-color: burlywood;
+    border-radius: 0.4em;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    padding: 10px;
+    
+    
+    
+    
+}
+.about .about-dtls h2 {
+       font-size: 15px;
+/*        place-self: center; */
+       text-align: center;
+    
+}
+
+.about .about-dtls p {
+    font-size: 16px;
+    text-align: center;
+    
+    
+}
+
+
+/*phone*/
+@media only screen and (min-width:200px)and (max-width:600px){
+    .about {
+        display:grid;
+        gap:20px;
+        border: 1px solid burlywood;
+        background-color: burlywood;
+        border-radius: 1em;
+        
+    }
+    .about .about-container h1 {
+        margin-top:20px
+    }
+    
+    .about .about-container  p{
+        font-size:15px;
+        
+    }
+    
+    .about-dtls {
+        padding:10px;
+    }
+    
+    .about img {
+        width:100%;
+        height: 20vh;
+        margin:10px 0 20px 0;
+        z-index:1;
+    }
+}
+
+/*Tablet*/
+@media only screen and (min-width:601px)and (max-width:900px){
+    .about > img{
+        margin-top: 10px;
+        margin-bottom:70px;
+}
+}
+
+/*Medium Siz Laptop*/
+@media only screen and (min-width:901px)and (max-width:1199px) {}
+
+/* Large Desktop*/
+@media only screen and (min-width:1200px)and (max-width:1799px) {}
+
+/*Extra Display*/
+@media only screen and (min-width:1800px){}

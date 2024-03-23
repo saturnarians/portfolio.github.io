@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', 'Segoe UI','Roboto';
+}
+
+
+body {
+  background: #fff;
+  color: #000;
+  min-height: 100vh;
+  overflow: hidden ;/*Incase something doesn't fit on the webapp */
+  overflow:  scroll; /*To be able to scroll */ 
+  
+
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

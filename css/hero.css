@@ -1,0 +1,93 @@
+.hero {
+    border: 1px solid #fff;  
+}
+
+
+.hero-img img {
+    width:100%;
+    height: 350px;
+    margin:10px auto;
+}
+
+.hero-text {
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+   
+}
+
+.hero-text :nth-child(1){
+    font-size: 90px;
+    font-weight: 500;
+    place-self: center;
+    margin-top: 10px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    font-weight: 500;
+    place-self: center;
+    margin-top: -55px;
+
+}
+
+.hero-skills {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap:0.1em;
+}
+
+.hero-skills img {
+    flex-shrink: 1;
+    flex-basis: 2%;
+}
+
+/*phone*/
+@media only screen and (min-width:200px)and (max-width:600px){
+    .hero-img img { 
+        width:100%;
+        height: 25vh;
+
+    }
+
+    .hero-text p {
+        font-size: 16px;
+        padding: 60px;
+        text-align: center;
+    }
+
+    .hero-text :nth-child(1){
+        font-size: 50px;
+        margin: 0;
+        padding: 2px;
+    }
+    
+    .hero-skills {
+         position: relative;
+         top:-4.3em;
+}
+    
+}
+
+/*Tablet*/
+@media only screen and (min-width:601px)and (max-width:900px){
+    .hero-text {
+         margin:.3em 1.5em 1em 3.7em;
+        padding: 1em;
+    }
+}
+
+/*Medium Siz Laptop*/
+@media only screen and (min-width:901px)and (max-width:1199px) {
+     .hero-text {
+         margin:.3em 1.5em 1em 4.7em;
+        padding: 1em;
+    }
+}
+
+/* Large Desktop*/
+@media only screen and (min-width:1200px)and (max-width:1799px) {}
+
+/*Extra Display*/
+@media only screen and (min-width:1800px){}

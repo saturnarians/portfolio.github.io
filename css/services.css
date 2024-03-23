@@ -1,0 +1,161 @@
+.services {
+    display:grid;
+    margin:10px;
+    padding:10px;
+    border-radius: 0.3rem;
+}
+
+
+.services h1 {
+    font-size:25px;
+    text-align: center;
+    place-self: center;
+    line-height: 10px;
+    letter-spacing: 0.3em;
+}
+
+.services span {
+    border-bottom: 2px solid #261c55;
+    width:10vw;
+    place-self: center;
+}
+
+.services h3 {
+    font-size:14px;
+    text-align: center;
+    place-self: center;
+    line-height: 10px;
+    letter-spacing: 0.3em;
+}
+
+.service-container {
+    display:flex;
+    gap:5px;
+    padding:5px;
+    margin-top:20px;   
+    border:1px solid lightgrey;
+    border-radius: 0.2em
+}
+
+
+.services .service-details{
+    background: #fff; 
+    border-radius: 0.5rem;
+    border:1px solid lightgrey;
+    border-radius: 0.2em;
+    background-color:lightgrey;
+    width:100%;
+    
+}
+
+.service-details img {
+    width:100%;
+    height:70px; 
+    margin: 20px auto;  
+}
+
+.service-details .feather-check-circle {
+    position: relative;
+    top:42px;
+    height: 1.7vh;
+    padding:.1px;
+    margin:10
+}
+
+
+.service-details h2 {
+    font-size:15px;
+    margin:10px auto;
+    padding:10px auto;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-weight:700;  
+}
+
+.service-details p {
+    margin:20px 30px;
+    padding:10px auto;
+    font-size:14px;  
+}
+
+
+/*phone*/
+@media only screen and (min-width:200px)and (max-width:600px){     
+    .services .service-container {
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax((11.25rem,100%),1fr));
+        gap: 1.4em;
+    }
+    
+    .services h1 {
+    font-size:18px;
+    }
+    
+    .services h3 {
+    font-size:12px;
+    line-height: 15px;
+   
+}
+    
+    
+/*     .service-details .feather
+    .service-details p
+    {
+        
+    } */
+}
+
+/*Tablet*/
+@media only screen and (min-width:601px)and (max-width:900px){
+    .services .service-container {
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax((11.25rem,100%),1fr));
+        gap: 1.4em;
+    }
+    
+    .services .service-details p {
+    margin:5px 10px 20px 100px;
+    padding:10px auto;
+    font-size:14px;  
+}
+    
+    .service-details .feather-check-circle {
+    position: relative;
+    top:30px;
+    left:20px;
+}
+    
+
+}
+
+/*Medium Siz Laptop*/
+@media only screen and (min-width:901px)and (max-width:1199px) {
+    
+   .services .service-details{
+    background: #fff; 
+    border-radius: 0.5rem;
+    border:1px solid lightgrey;
+    border-radius: 0.2em;
+    background-color:lightgrey;
+    width:100%;
+    
+}
+    .services .service-details p {
+    margin:5px 5px 10px 20px;
+    font-size:14px;  
+}
+    
+    .service-details .feather-check-circle {
+    position: relative;
+    top:32px;
+    left:0;
+    padding:5px;
+}
+    
+}
+
+/* Large Desktop*/
+@media only screen and (min-width:1200px)and (max-width:1799px) {}
+
+/*Extra Display*/
+@media only screen and (min-width:1800px){}
